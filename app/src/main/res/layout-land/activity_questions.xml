@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anmol.primenos.Questions"
+    android:orientation="vertical"
+    android:configChanges="orientation|screenSize|keyboard|keyboardHidden">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+
+
+        android:textSize="20dp"
+        android:cursorVisible="false"
+        android:background="@android:color/transparent"
+        android:text="Number is proime" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+
+        android:text=" Correct  "
+        android:id="@+id/button2"
+        android:drawableLeft="@drawable/correct"
+        android:outlineProvider="background"
+        android:layout_marginTop="35dp"
+
+        android:layout_marginBottom="20dp"
+        android:background="#FFFFFFFF"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Incorrect"
+
+
+        android:layout_marginBottom="20dp"
+        android:id="@+id/button3"
+        android:drawableLeft="@drawable/incorrect"
+        android:background="#FFFFFFFF"
+
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:background="#FFFFFFFF"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:text="Next"
+
+        android:gravity="center"
+
+        android:id="@+id/button4"
+        android:drawableLeft="@drawable/next"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
